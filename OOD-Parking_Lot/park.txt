@@ -1,0 +1,33 @@
+Creating following classes : 
+1. Vehicle
+2. 2WheelerVehicle
+3. 4WheelerVehicle
+4. ParkingSpot
+5. ParkingLot
+6. User
+
+
+
+
+
+
+Class person - extended for Customer, Admin, ParkingLotManager
+
+Spot - Available/Unavailable, price/hr, type(2/4 wheeler), forHandicapped
+
+Vehicle - extended by car, bike bus
+
+ParkingLot 
+
+EntryGate - getSlot(), parkCar(), occupySlot()
+
+Exitgate - exitVehicle(), pay(), vacantSlot(), updateOuttime()
+
+Tables - 
+1. User (admin, parkingLotManager)
+2. Vehicle - vehicleid, ownername, contactno
+3. Payment - timeOfPay, amount, modeOfPay, vehicleId
+4. Spot - spotid, floor, status, vehicleId(ifstatus=filled)
+
+5. Spot_info - type, Price, Floor (can also be made constants)
+6. Parking_lot  - floor, noOfSlots  (can also be made constants)
