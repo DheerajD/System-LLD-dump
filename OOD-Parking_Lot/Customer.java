@@ -1,4 +1,4 @@
-class Customer {
+class Customer extends Person{
 	String customer_id;
 	String name;
 	long contactno;
