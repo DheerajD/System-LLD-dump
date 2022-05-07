@@ -9,3 +9,4 @@ Create low level design for an LRU cache. Cache should support below operations:
 * Implemented by factory pattern, there can be more cache implementations.
 * Reused std lib Deque. Actual implementation of Queue is using doubly linked list.
 * Value in <K,V> can further be modified to be an object encapsulating more data.
+* To support concurrency in multithreaded env: https://www.baeldung.com/java-lru-cache
